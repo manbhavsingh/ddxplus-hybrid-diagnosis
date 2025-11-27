@@ -1,0 +1,753 @@
+CODE:
+# ddxplus_full_with_mapper.py
+# Single-file predictor + free-text-to-evidence mapper (fuzzy)
+# Place CSVs at /kaggle/input/ddxplus/* and JSONs in /mnt/data/ as uploaded.
+
+import os
+import sys
+import json
+import joblib
+import re
+import numpy as np
+import pandas as pd
+from collections import defaultdict, Counter
+
+from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
+from sklearn.metrics import accuracy_score, classification_report
+
+# Try rapidfuzz for better fuzzy matching; fallback to difflib
+try:
+    from rapidfuzz import fuzz
+    def fuzzy_ratio(a, b):
+        return fuzz.token_set_ratio(a, b)
+    FUZZ_LIB = "rapidfuzz"
+except Exception:
+    from difflib import SequenceMatcher
+    def fuzzy_ratio(a, b):
+        return SequenceMatcher(None, a, b).ratio() * 100.0
+    FUZZ_LIB = "difflib"
+
+# Try XGBoost
+USE_XGB = True
+try:
+    from xgboost import XGBClassifier
+except Exception:
+    USE_XGB = False
+    from sklearn.ensemble import RandomForestClassifier
+
+# ---------- CONFIG ----------
+TRAIN_FILE = "/kaggle/input/ddxplus/train.csv"
+VAL_FILE   = "/kaggle/input/ddxplus/validate.csv"
+TEST_FILE  = "/kaggle/input/ddxplus/test.csv"
+
+MODEL_FILE = "/kaggle/input/ddxplus/ddx_model.joblib"
+ARTIFACTS_FILE = "/kaggle/input/ddxplus/ddx_artifacts.joblib"
+
+TOP_K_DDX = 3
+
+# ---------- JSON files you uploaded (paths found in your session) ----------
+JSON_FILES = [
+    "/kaggle/input/jsonssss/mapping_E_inferred.json",
+    "/kaggle/input/jsonssss/release_evidences.json",
+    "/kaggle/input/jsonssss/release_conditions.json"
+]
+
+# ---------- TEXT NORMALIZATION ----------
+_normalize_re = re.compile(r"[^a-z0-9\s]")
+
+def normalize_text(s):
+    if s is None:
+        return ""
+    s = str(s).lower()
+    s = _normalize_re.sub(" ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+# ---------- FAST PARSING UTILITIES ----------
+def fast_parse_list(x):
+    if isinstance(x, list):
+        return x
+    if pd.isna(x):
+        return []
+    s = str(x).strip()
+    if s.startswith("[") and s.endswith("]"):
+        try:
+            return json.loads(s.replace("'", '"'))
+        except Exception:
+            pass
+    if "," in s:
+        return [it.strip() for it in s.split(",") if it.strip()]
+    if s == "":
+        return []
+    return [s]
+
+def extract_ddx_topk(ddx_list, k=TOP_K_DDX):
+    if not ddx_list:
+        return ["None"]*k + [0.0]*k
+    pairs = []
+    if not isinstance(ddx_list[0], (list, tuple)):
+        fl = ddx_list
+        for i in range(0, len(fl) - 1, 2):
+            try:
+                pairs.append((str(fl[i]), float(fl[i+1])))
+            except Exception:
+                continue
+    else:
+        for p in ddx_list:
+            try:
+                pairs.append((str(p[0]), float(p[1])))
+            except Exception:
+                continue
+    if not pairs:
+        return ["None"]*k + [0.0]*k
+    pairs.sort(key=lambda t: t[1], reverse=True)
+    names = [pairs[i][0] if i < len(pairs) else "None" for i in range(k)]
+    scores = [pairs[i][1] if i < len(pairs) else 0.0 for i in range(k)]
+    return names + scores
+
+# ---------- FILE LOADER ----------
+def load_df(path):
+    if not os.path.exists(path):
+        return None
+    df = pd.read_csv(path)
+    print("Loaded:", path, df.shape)
+    return df
+
+# ---------- PREPROCESS DF ----------
+def preprocess_df(df, fit=False, mlb=None):
+    df = df.copy()
+    if "EVIDENCES" not in df.columns:
+        df["EVIDENCES"] = [[] for _ in range(len(df))]
+    if "DIFFERENTIAL_DIAGNOSIS" not in df.columns:
+        df["DIFFERENTIAL_DIAGNOSIS"] = [[] for _ in range(len(df))]
+
+    evidences = [fast_parse_list(x) for x in df["EVIDENCES"].fillna("")]
+    ddx_raw   = [fast_parse_list(x) for x in df["DIFFERENTIAL_DIAGNOSIS"].fillna("")]
+
+    # top-k dx extraction
+    ddx_top = np.array([extract_ddx_topk(x, TOP_K_DDX) for x in ddx_raw])
+    name_cols  = [f"DDX{i+1}_name"  for i in range(TOP_K_DDX)]
+    score_cols = [f"DDX{i+1}_score" for i in range(TOP_K_DDX)]
+    ddx_df = pd.DataFrame(ddx_top, columns=name_cols + score_cols)
+    # Convert score columns to numeric floats
+    for sc in score_cols:
+        ddx_df[sc] = pd.to_numeric(ddx_df[sc], errors="coerce").fillna(0.0).astype(np.float32)
+    # Ensure name cols are strings
+    for nm in name_cols:
+        ddx_df[nm] = ddx_df[nm].astype(str).fillna("None")
+
+    df = pd.concat([df.reset_index(drop=True), ddx_df.reset_index(drop=True)], axis=1)
+
+    # MultiLabelBinarizer
+    if fit:
+        mlb = MultiLabelBinarizer(sparse_output=True)
+        ev_mat = mlb.fit_transform(evidences)
+    else:
+        ev_mat = mlb.transform(evidences)
+    ev_cols = list(mlb.classes_)
+    # build sparse DataFrame (columns are Sparse)
+    ev_df = pd.DataFrame.sparse.from_spmatrix(ev_mat, columns=ev_cols)
+    df = pd.concat([df.reset_index(drop=True), ev_df.reset_index(drop=True)], axis=1)
+
+    # Fill missing required columns
+    df["INITIAL_EVIDENCE"] = df.get("INITIAL_EVIDENCE", "None").fillna("None")
+    df["SEX"] = df.get("SEX", "M").fillna("M")
+    df["AGE"] = df.get("AGE", 0).fillna(0)
+
+    return df, mlb, ev_cols
+
+# ---------- BUILD MAPPINGS FROM JSONs ----------
+def load_json_safe(path):
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def build_mappings(json_paths):
+    evidence_meta = {}
+    phrase_index = defaultdict(set)
+    candidates = []
+    for path in json_paths:
+        doc = load_json_safe(path)
+        if not isinstance(doc, dict):
+            continue
+        # (A) index keys starting with E_
+        for k, v in doc.items():
+            if isinstance(k, str) and k.startswith("E_"):
+                meta = {}
+                if isinstance(v, dict):
+                    ct = v.get("choice_text") or v.get("question_en") or v.get("inferred_symptom_token")
+                    meta["choice_text"] = ct
+                    meta["inferred_symptom_token"] = v.get("inferred_symptom_token")
+                    tokens = []
+                    support = v.get("support", {}) if isinstance(v, dict) else {}
+                    top_tokens = support.get("top_candidate_tokens") or []
+                    for t in top_tokens:
+                        if isinstance(t, (list, tuple)) and t:
+                            tokens.append(t[0])
+                        elif isinstance(t, str):
+                            tokens.append(t)
+                    if meta["inferred_symptom_token"]:
+                        tokens.append(meta["inferred_symptom_token"])
+                    if ct:
+                        tokens += ct.split()
+                    meta["tokens"] = list({normalize_text(x) for x in tokens if x})
+                else:
+                    meta["choice_text"] = None
+                    meta["inferred_symptom_token"] = None
+                    meta["tokens"] = []
+                evidence_meta[k] = meta
+                if meta.get("choice_text"):
+                    p = normalize_text(meta["choice_text"])
+                    phrase_index[p].add(k)
+                    candidates.append((p, k))
+                for t in meta.get("tokens", []):
+                    phrase_index[t].add(k)
+                    candidates.append((t, k))
+        # (B) index question/value-like structures (d2d and others)
+        for qk, qv in doc.items():
+            if not isinstance(qv, dict):
+                continue
+            q_en = qv.get("question_en") or qv.get("name")
+            if q_en:
+                qcode = f"Q_{qk}"
+                evidence_meta.setdefault(qcode, {})["question_en"] = q_en
+                evidence_meta[qcode]["type"] = "question"
+                p = normalize_text(q_en)
+                phrase_index[p].add(qcode)
+                candidates.append((p, qcode))
+            # value_meaning:
+            vm = qv.get("value_meaning") or {}
+            if isinstance(vm, dict):
+                for val_key, val_obj in vm.items():
+                    en = None
+                    if isinstance(val_obj, dict):
+                        en = val_obj.get("en") or val_obj.get("english")
+                    elif isinstance(val_obj, str):
+                        en = val_obj
+                    if en:
+                        vcode = f"V_{qk}__{val_key}"
+                        evidence_meta.setdefault(vcode, {})["value_en"] = en
+                        evidence_meta[vcode]["type"] = "value"
+                        p = normalize_text(en)
+                        phrase_index[p].add(vcode)
+                        candidates.append((p, vcode))
+            # possible-values
+            pv = qv.get("possible-values") or []
+            if isinstance(pv, list):
+                for val in pv:
+                    if isinstance(val, str):
+                        vcode = f"V_{qk}__{val}"
+                        p = normalize_text(val)
+                        phrase_index[p].add(vcode)
+                        candidates.append((p, vcode))
+
+    # flatten candidates unique
+    unique = defaultdict(set)
+    for phr, code in candidates:
+        unique[phr].add(code)
+    flat_candidates = []
+    for phr, setc in unique.items():
+        for c in setc:
+            flat_candidates.append((phr, c))
+
+    token_to_phrases = defaultdict(set)
+    for p in phrase_index:
+        for tok in p.split():
+            token_to_phrases[tok].add(p)
+
+    return evidence_meta, phrase_index, flat_candidates, token_to_phrases
+
+# ---------- FUZZY MAPPING ----------
+def map_text_to_evidences(text, evidence_meta, phrase_index, candidates, token_to_phrases,
+                           max_results=12, fuzz_threshold=60):
+    text_n = normalize_text(text)
+    if not text_n:
+        return []
+    tokens = text_n.split()
+    scores = Counter()
+
+    # exact phrase substring matches (strong)
+    for phrase in phrase_index:
+        if phrase and phrase in text_n:
+            for code in phrase_index[phrase]:
+                scores[(code, phrase)] += 120
+
+    # token containment boosts
+    for t in tokens:
+        for phrase in token_to_phrases.get(t, []):
+            for code in phrase_index[phrase]:
+                scores[(code, phrase)] += 15
+
+    # fuzzy candidate matching
+    for phrase, code in candidates:
+        sc = fuzzy_ratio(text_n, phrase)
+        if sc >= fuzz_threshold:
+            scores[(code, phrase)] += sc
+
+    # ngram matching (2-3 gram chunks)
+    n = len(tokens)
+    for length in (3, 2):
+        for i in range(0, max(0, n-length+1)):
+            chunk = " ".join(tokens[i:i+length])
+            for phrase, code in candidates:
+                sc = fuzzy_ratio(chunk, phrase)
+                if sc >= (fuzz_threshold + 5):
+                    scores[(code, phrase)] += (sc + 10)
+
+    # aggregate to best phrase per code
+    agg = {}
+    for (code, phrase), sc in scores.items():
+        agg.setdefault(code, []).append((sc, phrase))
+    results = []
+    for code, lst in agg.items():
+        best = max(lst, key=lambda x: x[0])
+        results.append((code, float(best[0]), best[1]))
+    results.sort(key=lambda x: x[1], reverse=True)
+    return results[:max_results]
+
+# ---------- SAFE LABELENCODER and TRAIN/PREDICT ----------
+def train_and_save(train_path, val_path=None, test_path=None):
+    df_train = load_df(train_path)
+    if df_train is None:
+        raise FileNotFoundError("Train file not found: " + train_path)
+    df_val = load_df(val_path) if val_path else None
+    df_test = load_df(test_path) if test_path else None  # TEST
+
+    df_train_prep, mlb, ev_cols = preprocess_df(df_train, fit=True)
+
+    le_path = LabelEncoder()
+    df_train_prep["PATHOLOGY"] = le_path.fit_transform(df_train_prep["PATHOLOGY"].astype(str))
+
+    le_sex = LabelEncoder()
+    df_train_prep["SEX"] = le_sex.fit_transform(df_train_prep["SEX"].astype(str))
+
+    ddx_name_cols = [f"DDX{i+1}_name" for i in range(TOP_K_DDX)]
+    ddx_score_cols = [f"DDX{i+1}_score" for i in range(TOP_K_DDX)]
+    le_ddx = {}
+    for col in ddx_name_cols + ["INITIAL_EVIDENCE"]:
+        le = LabelEncoder()
+        vals = df_train_prep[col].astype(str).fillna("None").tolist()
+        vals_extended = vals + ["None", "__UNK__"]
+        le.fit(vals_extended)
+        mapped = [v if v in set(le.classes_) else "__UNK__" for v in df_train_prep[col].astype(str)]
+        df_train_prep[col] = le.transform(mapped)
+        le_ddx[col] = le
+
+    feature_cols = ["AGE", "SEX"] + ddx_name_cols + ddx_score_cols + ["INITIAL_EVIDENCE"] + ev_cols
+    X_train = df_train_prep[feature_cols]
+    y_train = df_train_prep["PATHOLOGY"].astype(int)
+
+    # ---------- VALIDATION PREP ----------
+    X_val, y_val = None, None
+    if df_val is not None:
+        df_val_prep, _, _ = preprocess_df(df_val, fit=False, mlb=mlb)
+        try:
+            df_val_prep["SEX"] = le_sex.transform(df_val_prep["SEX"].astype(str))
+        except Exception:
+            df_val_prep["SEX"] = df_val_prep["SEX"].astype(str).apply(
+                lambda v: v if v in set(le_sex.classes_) else le_sex.classes_[0]
+            )
+            df_val_prep["SEX"] = le_sex.transform(df_val_prep["SEX"].astype(str))
+        for col, le in le_ddx.items():
+            vals = df_val_prep[col].astype(str).fillna("None")
+            mapped = [v if v in set(le.classes_) else "__UNK__" for v in vals]
+            df_val_prep[col] = le.transform(mapped)
+        X_val = df_val_prep[feature_cols]
+        y_val = le_path.transform(df_val_prep["PATHOLOGY"].astype(str)) if "PATHOLOGY" in df_val_prep else None
+
+    # ---------- TEST PREP ----------
+    X_test, y_test = None, None
+    if df_test is not None:
+        df_test_prep, _, _ = preprocess_df(df_test, fit=False, mlb=mlb)
+        try:
+            df_test_prep["SEX"] = le_sex.transform(df_test_prep["SEX"].astype(str))
+        except Exception:
+            df_test_prep["SEX"] = df_test_prep["SEX"].astype(str).apply(
+                lambda v: v if v in set(le_sex.classes_) else le_sex.classes_[0]
+            )
+            df_test_prep["SEX"] = le_sex.transform(df_test_prep["SEX"].astype(str))
+        for col, le in le_ddx.items():
+            vals = df_test_prep[col].astype(str).fillna("None")
+            mapped = [v if v in set(le.classes_) else "__UNK__" for v in vals]
+            df_test_prep[col] = le.transform(mapped)
+        X_test = df_test_prep[feature_cols]
+        # Only compute y_test if PATHOLOGY labels actually exist in test.csv
+        y_test = le_path.transform(df_test_prep["PATHOLOGY"].astype(str)) if "PATHOLOGY" in df_test_prep else None
+
+    # ---------- DTYPE FIXES ----------
+    # train
+    for c in X_train.columns:
+        if pd.api.types.is_sparse(X_train[c].dtype):
+            X_train[c] = X_train[c].sparse.to_dense().astype(np.int8)
+    for c in ddx_score_cols:
+        X_train[c] = pd.to_numeric(X_train[c], errors="coerce").fillna(0).astype(np.float32)
+    for c in X_train.columns:
+        if X_train[c].dtype == object:
+            X_train[c] = pd.to_numeric(X_train[c], errors="coerce").fillna(0).astype(np.float32)
+    X_train = X_train.astype(np.float32)
+
+    # val
+    if X_val is not None:
+        for c in X_val.columns:
+            if pd.api.types.is_sparse(X_val[c].dtype):
+                X_val[c] = X_val[c].sparse.to_dense().astype(np.int8)
+            if X_val[c].dtype == object:
+                X_val[c] = pd.to_numeric(X_val[c], errors="coerce").fillna(0).astype(np.float32)
+        for c in ddx_score_cols:
+            X_val[c] = X_val[c].astype(np.float32)
+        X_val = X_val.astype(np.float32)
+
+    # test
+    if X_test is not None:
+        for c in X_test.columns:
+            if pd.api.types.is_sparse(X_test[c].dtype):
+                X_test[c] = X_test[c].sparse.to_dense().astype(np.int8)
+            if X_test[c].dtype == object:
+                X_test[c] = pd.to_numeric(X_test[c], errors="coerce").fillna(0).astype(np.float32)
+        for c in ddx_score_cols:
+            X_test[c] = X_test[c].astype(np.float32)
+        X_test = X_test.astype(np.float32)
+
+    # ---------- TRAIN MODEL ----------
+    print("Training model...")
+    if USE_XGB:
+        model = XGBClassifier(
+            objective="multi:softprob",
+            num_class=len(le_path.classes_),
+            eval_metric="mlogloss",
+            n_estimators=60,
+            learning_rate=0.1,
+            max_depth=4,
+            subsample=0.9,
+            colsample_bytree=0.8,
+            tree_method="hist",
+            n_jobs=-1,
+            early_stopping_rounds=10
+        )
+        if X_val is not None and y_val is not None:
+            model.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
+        else:
+            model.fit(X_train, y_train)
+    else:
+        model = RandomForestClassifier(n_estimators=200, n_jobs=-1)
+        model.fit(X_train, y_train)
+
+    # ---------- VALIDATION ACCURACY ----------
+    if X_val is not None and y_val is not None:
+        preds = model.predict(X_val)
+        print("\nValidation Accuracy:", accuracy_score(y_val, preds))
+        print(classification_report(y_val, preds, target_names=le_path.classes_))
+
+    # ---------- TEST ACCURACY ----------
+    if X_test is not None and y_test is not None:
+        test_preds = model.predict(X_test)
+        print("\nTest Accuracy:", accuracy_score(y_test, test_preds))
+        print(classification_report(y_test, test_preds, target_names=le_path.classes_))
+
+    artifacts = {
+        "mlb": mlb,
+        "le_path": le_path,
+        "le_sex": le_sex,
+        "le_ddx": le_ddx,
+        "ev_cols": ev_cols,
+        "feature_cols": feature_cols
+    }
+    joblib.dump(model, MODEL_FILE)
+    joblib.dump(artifacts, ARTIFACTS_FILE)
+    print("Saved model and artifacts.")
+    return model, artifacts
+
+def load_model_artifacts():
+    if not (os.path.exists(MODEL_FILE) and os.path.exists(ARTIFACTS_FILE)):
+        raise FileNotFoundError("Model or artifacts not found.")
+    model = joblib.load(MODEL_FILE)
+    artifacts = joblib.load(ARTIFACTS_FILE)
+    return model, artifacts
+
+# ---------- EVALUATION FOR EXISTING MODEL ----------
+def _prepare_split(df, art, split_name=""):
+    """
+    Prepare X, y for a given dataframe using already-fitted artifacts.
+    """
+    if df is None:
+        return None, None
+
+    mlb = art["mlb"]
+    le_path = art["le_path"]
+    le_sex = art["le_sex"]
+    le_ddx = art["le_ddx"]
+    feature_cols = art["feature_cols"]
+
+    # Recreate ddx cols
+    ddx_name_cols = [f"DDX{i+1}_name" for i in range(TOP_K_DDX)]
+    ddx_score_cols = [f"DDX{i+1}_score" for i in range(TOP_K_DDX)]
+
+    df_prep, _, _ = preprocess_df(df, fit=False, mlb=mlb)
+
+    # SEX
+    try:
+        df_prep["SEX"] = le_sex.transform(df_prep["SEX"].astype(str))
+    except Exception:
+        df_prep["SEX"] = df_prep["SEX"].astype(str).apply(
+            lambda v: v if v in set(le_sex.classes_) else le_sex.classes_[0]
+        )
+        df_prep["SEX"] = le_sex.transform(df_prep["SEX"].astype(str))
+
+    # DDX name-like columns
+    for col, le in le_ddx.items():
+        if col not in df_prep.columns:
+            continue
+        vals = df_prep[col].astype(str).fillna("None")
+        mapped = [v if v in set(le.classes_) else "__UNK__" if "__UNK__" in le.classes_ else "None"
+                  for v in vals]
+        df_prep[col] = le.transform(mapped)
+
+    X = df_prep[feature_cols]
+    y = None
+    if "PATHOLOGY" in df_prep.columns:
+        try:
+            y = le_path.transform(df_prep["PATHOLOGY"].astype(str))
+        except Exception:
+            # if unseen labels in PATHOLOGY, drop those rows
+            mask = df_prep["PATHOLOGY"].astype(str).isin(le_path.classes_)
+            df_prep = df_prep[mask]
+            X = df_prep[feature_cols]
+            if len(df_prep) > 0:
+                y = le_path.transform(df_prep["PATHOLOGY"].astype(str))
+            else:
+                y = None
+
+    # DTYPE FIXES
+    for c in X.columns:
+        if pd.api.types.is_sparse(X[c].dtype):
+            X[c] = X[c].sparse.to_dense().astype(np.int8)
+        if X[c].dtype == object:
+            X[c] = pd.to_numeric(X[c], errors="coerce").fillna(0).astype(np.float32)
+    for c in ddx_score_cols:
+        if c in X.columns:
+            X[c] = X[c].astype(np.float32)
+    X = X.astype(np.float32)
+
+    return X, y
+
+def evaluate_model(model, art, train_path, val_path=None, test_path=None):
+    """
+    Evaluate an already-trained model on train/val/test (if labels exist) and print accuracies.
+    """
+    print("\n=== Evaluating existing model ===")
+
+    df_train = load_df(train_path)
+    df_val   = load_df(val_path) if val_path else None
+    df_test  = load_df(test_path) if test_path else None
+
+    # TRAIN
+    X_tr, y_tr = _prepare_split(df_train, art, "train")
+    if X_tr is not None and y_tr is not None and len(X_tr) > 0:
+        preds_tr = model.predict(X_tr)
+        print("\nTrain Accuracy:", accuracy_score(y_tr, preds_tr))
+    else:
+        print("\nTrain labels not available or could not be prepared.")
+
+    # VAL
+    X_val, y_val = _prepare_split(df_val, art, "val") if df_val is not None else (None, None)
+    if X_val is not None and y_val is not None and len(X_val) > 0:
+        preds_val = model.predict(X_val)
+        print("\nValidation Accuracy:", accuracy_score(y_val, preds_val))
+        print(classification_report(y_val, preds_val, target_names=art["le_path"].classes_))
+    else:
+        print("\nValidation labels not available or could not be prepared.")
+
+    # TEST
+    X_te, y_te = _prepare_split(df_test, art, "test") if df_test is not None else (None, None)
+    if X_te is not None and y_te is not None and len(X_te) > 0:
+        preds_te = model.predict(X_te)
+        print("\nTest Accuracy:", accuracy_score(y_te, preds_te))
+        print(classification_report(y_te, preds_te, target_names=art["le_path"].classes_))
+    else:
+        print("\nTest labels not available or could not be prepared.")
+
+# ---------- PREPROCESS USER INPUT ----------
+def preprocess_user_input(age, sex, evidences, init_ev, art):
+    # convert evidences input into list
+    if isinstance(evidences, str):
+        evidences = [e.strip() for e in evidences.split(",") if e.strip()]
+    else:
+        evidences = [e.strip() for e in evidences if e and str(e).strip()]
+
+    feat = {c: 0 for c in art["feature_cols"]}
+    try:
+        feat["AGE"] = float(age)
+    except Exception:
+        feat["AGE"] = 0.0
+
+    # sex
+    try:
+        feat["SEX"] = int(art["le_sex"].transform([sex])[0]) if sex in art["le_sex"].classes_ else 0
+    except Exception:
+        feat["SEX"] = 0
+
+    # ddx placeholders
+    for i in range(TOP_K_DDX):
+        name_col = f"DDX{i+1}_name"
+        score_col = f"DDX{i+1}_score"
+        le = art["le_ddx"].get(name_col)
+        if le is not None:
+            if "None" in le.classes_:
+                feat[name_col] = int(le.transform(["None"])[0])
+            elif "__UNK__" in le.classes_:
+                feat[name_col] = int(le.transform(["__UNK__"])[0])
+            else:
+                feat[name_col] = 0
+        else:
+            feat[name_col] = 0
+        feat[score_col] = 0.0
+
+    # initial evidence
+    le_init = art["le_ddx"].get("INITIAL_EVIDENCE")
+    if le_init is not None:
+        if init_ev in le_init.classes_:
+            feat["INITIAL_EVIDENCE"] = int(le_init.transform([init_ev])[0])
+        elif "__UNK__" in le_init.classes_:
+            feat["INITIAL_EVIDENCE"] = int(le_init.transform(["__UNK__"])[0])
+        else:
+            feat["INITIAL_EVIDENCE"] = 0
+    else:
+        feat["INITIAL_EVIDENCE"] = 0
+
+    # evidences -> mlb transform (handle sparse/dense)
+    mlb = art["mlb"]
+    ev_vec = mlb.transform([evidences])
+    if hasattr(ev_vec, "toarray"):
+        binvec = ev_vec.toarray()[0]
+    else:
+        binvec = np.asarray(ev_vec[0]).ravel()
+
+    for i, col in enumerate(art["ev_cols"]):
+        if i < len(binvec):
+            try:
+                feat[col] = int(binvec[i])
+            except Exception:
+                feat[col] = int(float(binvec[i]))
+        else:
+            feat[col] = 0
+
+    X_row = pd.DataFrame([feat])[art["feature_cols"]].astype(np.float32)
+    return X_row
+
+# ---------- MAIN / INTERACTIVE ----------
+def run_interactive():
+    # Build mapping index from JSON files
+    evidence_meta, phrase_index, candidates, token_to_phrases = build_mappings(JSON_FILES)
+    print(f"Mapper: loaded {len(evidence_meta)} evidence-like entries, {len(phrase_index)} phrases. (fuzzy: {FUZZ_LIB})")
+
+    # train or load model
+    if os.path.exists(MODEL_FILE) and os.path.exists(ARTIFACTS_FILE):
+        print("Found existing model/artifacts. Loading...")
+        try:
+            model, art = load_model_artifacts()
+        except Exception as e:
+            print("Could not load existing model/artifacts, retraining.", e)
+            model, art = train_and_save(TRAIN_FILE, VAL_FILE, TEST_FILE)
+        # Always evaluate when loading existing model
+        evaluate_model(model, art, TRAIN_FILE, VAL_FILE, TEST_FILE)
+    else:
+        print("Model/artifacts not found - training now (this runs once).")
+        model, art = train_and_save(TRAIN_FILE, VAL_FILE, TEST_FILE)
+
+    print("\n=== DDXPlus Interactive Predictor + Mapper ===")
+    print("Two input modes:")
+    print("  (S)entence mode — enter an English sentence describing complaints (will be mapped to evidence codes via fuzzy matching).")
+    print("  (C)odes mode — enter comma-separated evidence codes directly (E_31,E_66,...) \n")
+    print("Type 'quit' as AGE to exit at any time.\n")
+
+    while True:
+        age = input("AGE: ").strip()
+        if age.lower() in ["quit", "exit"]:
+            break
+
+        mode = input("Mode (S for sentence / C for codes) [S]: ").strip().lower() or "s"
+
+        evid_list = []
+        initial_ev = None
+
+        if mode == "s" or mode == "sentence":
+            sentence = input("Enter short English description (e.g. 'severe chest pain radiating to left arm'): ").strip()
+            if not sentence:
+                print("No sentence entered — try codes mode or re-enter.")
+                continue
+            mapped = map_text_to_evidences(sentence, evidence_meta, phrase_index, candidates, token_to_phrases,
+                                           max_results=20, fuzz_threshold=60)
+            if not mapped:
+                print("No confident mappings found. You can enter codes manually.")
+                use_manual = input("Enter codes manually? (y/N): ").strip().lower()
+                if use_manual == "y":
+                    codes_in = input("EVIDENCES (comma-separated): ").strip()
+                    evid_list = [e.strip() for e in codes_in.split(",") if e.strip()]
+                else:
+                    continue
+            else:
+                print("\nTop mapped evidence suggestions (code | score | phrase -> label):")
+                for i, (code, score, phrase) in enumerate(mapped[:15], start=1):
+                    label = evidence_meta.get(code, {}).get("choice_text") or \
+                            evidence_meta.get(code, {}).get("question_en") or \
+                            evidence_meta.get(code, {}).get("value_en") or ""
+                    print(f" {i:2d}. {code:12}  score={score:5.1f}  matched='{phrase}'  label='{label}'")
+                # ask user to accept top-k or pick indices
+                accept = input("\nAccept top 5 suggestions? (Y)es / (N)o / (P)ick indices [Y]: ").strip().lower() or "y"
+                if accept in ["y", "yes"]:
+                    evid_list = [code for code, _, _ in mapped[:5]]
+                elif accept in ["n", "no"]:
+                    codes_in = input("Enter codes manually (comma-separated): ").strip()
+                    evid_list = [e.strip() for e in codes_in.split(",") if e.strip()]
+                else:
+                    # pick indices like "1,3,5"
+                    idxs = [int(x)-1 for x in re.split(r"[,\s]+", accept) if x.strip().isdigit()]
+                    evid_list = []
+                    for idx in idxs:
+                        if 0 <= idx < len(mapped):
+                            evid_list.append(mapped[idx][0])
+        else:
+            codes_in = input("EVIDENCES (comma-separated, e.g. E_31,E_66): ").strip()
+            evid_list = [e.strip() for e in codes_in.split(",") if e.strip()]
+
+        # INITIAL EVIDENCE selection
+        init_choice = input("INITIAL_EVIDENCE (leave blank to choose first evidence or type 'none'): ").strip()
+        if init_choice == "":
+            initial_ev = evid_list[0] if evid_list else "None"
+        else:
+            initial_ev = init_choice
+
+        sex = input("SEX (M/F): ").strip() or "M"
+
+        # Build X and predict
+        try:
+            X = preprocess_user_input(age, sex, evid_list, initial_ev, art)
+        except Exception as e:
+            print("Failed to build features:", e)
+            continue
+
+        try:
+            if hasattr(model, "predict_proba"):
+                probs = model.predict_proba(X)[0]
+                idx = int(np.argmax(probs))
+            else:
+                idx = int(model.predict(X)[0])
+                probs = None
+        except Exception as e:
+            print("Prediction failed:", e)
+            continue
+
+        pathology = art["le_path"].classes_[idx]
+        print("\nPredicted PATHOLOGY:", pathology)
+        if probs is not None:
+            print("\nTop predictions:")
+            top = np.argsort(probs)[::-1][:7]
+            for t in top:
+                print(f"  {art['le_path'].classes_[t]}: {probs[t]:.4f}")
+        print("\n---\n")
+
+    print("Exiting. Goodbye!")
+
+if __name__ == "__main__":
+    run_interactive()
