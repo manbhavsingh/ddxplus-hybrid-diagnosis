@@ -1,0 +1,9258 @@
+{
+  "E_79": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 287363,
+      "top_pathologies": [
+        [
+          "Viral pharyngitis",
+          37071
+        ],
+        [
+          "URTI",
+          37051
+        ],
+        [
+          "Influenza",
+          20068
+        ],
+        [
+          "GERD",
+          17349
+        ],
+        [
+          "Pneumonia",
+          16581
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          15832
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          5.355534806148942
+        ],
+        [
+          "douleurxx",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_carac",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_soudain",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_intens",
+          5.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_201": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 319418,
+      "top_pathologies": [
+        [
+          "URTI",
+          43930
+        ],
+        [
+          "Viral pharyngitis",
+          37032
+        ],
+        [
+          "Bronchitis",
+          23016
+        ],
+        [
+          "Influenza",
+          22017
+        ],
+        [
+          "Pneumonia",
+          21329
+        ],
+        [
+          "GERD",
+          17968
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_77": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 97982,
+      "top_pathologies": [
+        [
+          "URTI",
+          26509
+        ],
+        [
+          "Pneumonia",
+          21972
+        ],
+        [
+          "Bronchitis",
+          20667
+        ],
+        [
+          "Bronchiectasis",
+          16006
+        ],
+        [
+          "Acute COPD exacerbation / infection",
+          12828
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_97": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 94506,
+      "top_pathologies": [
+        [
+          "URTI",
+          50206
+        ],
+        [
+          "HIV (initial infection)",
+          16354
+        ],
+        [
+          "Influenza",
+          14497
+        ],
+        [
+          "Bronchitis",
+          12981
+        ],
+        [
+          "Ebola",
+          468
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_53": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 788079,
+      "top_pathologies": [
+        [
+          "URTI",
+          64121
+        ],
+        [
+          "Viral pharyngitis",
+          61642
+        ],
+        [
+          "Anemia",
+          50175
+        ],
+        [
+          "HIV (initial infection)",
+          28930
+        ],
+        [
+          "Localized edema",
+          27825
+        ],
+        [
+          "Anaphylaxis",
+          27704
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_91": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 216215,
+      "top_pathologies": [
+        [
+          "URTI",
+          45036
+        ],
+        [
+          "Viral pharyngitis",
+          30414
+        ],
+        [
+          "HIV (initial infection)",
+          24402
+        ],
+        [
+          "Influenza",
+          21447
+        ],
+        [
+          "Pneumonia",
+          17951
+        ],
+        [
+          "Acute otitis media",
+          14634
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_50": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 129081,
+      "top_pathologies": [
+        [
+          "URTI",
+          41650
+        ],
+        [
+          "Influenza",
+          18313
+        ],
+        [
+          "HIV (initial infection)",
+          17994
+        ],
+        [
+          "Panic attack",
+          15188
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          13579
+        ],
+        [
+          "Unstable angina",
+          11209
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          3.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_222": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 70030,
+      "top_pathologies": [
+        [
+          "URTI",
+          40593
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          12384
+        ],
+        [
+          "Pulmonary neoplasm",
+          11327
+        ],
+        [
+          "Larygospasm",
+          5726
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_48": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 99971,
+      "top_pathologies": [
+        [
+          "URTI",
+          45946
+        ],
+        [
+          "Viral pharyngitis",
+          39446
+        ],
+        [
+          "Acute laryngitis",
+          14433
+        ],
+        [
+          "Bronchiolitis",
+          146
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_162": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 52110,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          19536
+        ],
+        [
+          "Pancreatic neoplasm",
+          11646
+        ],
+        [
+          "Pulmonary neoplasm",
+          11513
+        ],
+        [
+          "Tuberculosis",
+          9415
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_51": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 60055,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          17275
+        ],
+        [
+          "Anaphylaxis",
+          16772
+        ],
+        [
+          "Pancreatic neoplasm",
+          10561
+        ],
+        [
+          "Scombroid food poisoning",
+          9709
+        ],
+        [
+          "Chagas",
+          5314
+        ],
+        [
+          "Ebola",
+          424
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          3.3555348061489414
+        ],
+        [
+          "fievre",
+          3.277258872223978
+        ],
+        [
+          "nausee",
+          3.239789527279837
+        ],
+        [
+          "diarrhee",
+          3.1945910149055314
+        ],
+        [
+          "douleurxx_endroitducorps",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx",
+          2.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_115": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 20787,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          20787
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_27": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 20831,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          20831
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_189": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 20864,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          20864
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_129": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 167463,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          29013
+        ],
+        [
+          "Anaphylaxis",
+          27718
+        ],
+        [
+          "Pneumonia",
+          25588
+        ],
+        [
+          "Influenza",
+          23198
+        ],
+        [
+          "Scombroid food poisoning",
+          18535
+        ],
+        [
+          "Inguinal hernia",
+          18322
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_148": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 107968,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          18517
+        ],
+        [
+          "Anaphylaxis",
+          15168
+        ],
+        [
+          "Panic attack",
+          13384
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          12740
+        ],
+        [
+          "Unstable angina",
+          11739
+        ],
+        [
+          "Boerhaave",
+          11527
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          10.355534806148942
+        ],
+        [
+          "nausee",
+          10.239789527279838
+        ],
+        [
+          "douleurxx_endroitducorps",
+          9.355534806148942
+        ],
+        [
+          "douleurxx",
+          9.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          9.355534806148942
+        ],
+        [
+          "douleurxx_carac",
+          9.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_9": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 41535,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          21818
+        ],
+        [
+          "Sarcoidosis",
+          14806
+        ],
+        [
+          "Chagas",
+          4911
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          1.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_124": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 138319,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          19936
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          19342
+        ],
+        [
+          "Chronic rhinosinusitis",
+          17889
+        ],
+        [
+          "GERD",
+          17385
+        ],
+        [
+          "Pneumonia",
+          15875
+        ],
+        [
+          "Panic attack",
+          15835
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_175": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 41670,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          15590
+        ],
+        [
+          "Acute pulmonary edema",
+          13689
+        ],
+        [
+          "Myocarditis",
+          6461
+        ],
+        [
+          "Chagas",
+          5930
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          1.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_123": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 72719,
+      "top_pathologies": [
+        [
+          "Bronchitis",
+          20752
+        ],
+        [
+          "Pneumonia",
+          18960
+        ],
+        [
+          "Acute COPD exacerbation / infection",
+          14592
+        ],
+        [
+          "Bronchiectasis",
+          12398
+        ],
+        [
+          "Spontaneous pneumothorax",
+          6017
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_144": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 92984,
+      "top_pathologies": [
+        [
+          "URTI",
+          37857
+        ],
+        [
+          "Influenza",
+          18574
+        ],
+        [
+          "HIV (initial infection)",
+          18377
+        ],
+        [
+          "Pneumonia",
+          17812
+        ],
+        [
+          "Ebola",
+          364
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_106": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 57031,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          20923
+        ],
+        [
+          "Pneumonia",
+          18817
+        ],
+        [
+          "Acute pulmonary edema",
+          17291
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_181": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 202756,
+      "top_pathologies": [
+        [
+          "URTI",
+          51938
+        ],
+        [
+          "Viral pharyngitis",
+          42230
+        ],
+        [
+          "Allergic sinusitis",
+          23029
+        ],
+        [
+          "Influenza",
+          17452
+        ],
+        [
+          "Acute otitis media",
+          15698
+        ],
+        [
+          "Cluster headache",
+          12354
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_118": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 57137,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          20757
+        ],
+        [
+          "Chronic rhinosinusitis",
+          14598
+        ],
+        [
+          "Bronchiectasis",
+          11965
+        ],
+        [
+          "Acute rhinosinusitis",
+          9817
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_94": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 35377,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          17730
+        ],
+        [
+          "Influenza",
+          17647
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_78": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 118289,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          15933
+        ],
+        [
+          "GERD",
+          15715
+        ],
+        [
+          "Panic attack",
+          14269
+        ],
+        [
+          "Cluster headache",
+          13847
+        ],
+        [
+          "Unstable angina",
+          13337
+        ],
+        [
+          "Boerhaave",
+          10756
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_49": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 98263,
+      "top_pathologies": [
+        [
+          "Viral pharyngitis",
+          44176
+        ],
+        [
+          "URTI",
+          39577
+        ],
+        [
+          "Acute laryngitis",
+          14510
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_121": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 23436,
+      "top_pathologies": [
+        [
+          "Chronic rhinosinusitis",
+          14059
+        ],
+        [
+          "Acute rhinosinusitis",
+          9377
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_226": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 79709,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          18808
+        ],
+        [
+          "Anaphylaxis",
+          18519
+        ],
+        [
+          "Chronic rhinosinusitis",
+          16803
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          14607
+        ],
+        [
+          "Acute rhinosinusitis",
+          10972
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_182": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 24743,
+      "top_pathologies": [
+        [
+          "Chronic rhinosinusitis",
+          13699
+        ],
+        [
+          "Acute rhinosinusitis",
+          11044
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_103": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 27394,
+      "top_pathologies": [
+        [
+          "Chronic rhinosinusitis",
+          17315
+        ],
+        [
+          "Acute rhinosinusitis",
+          10079
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_125": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 44446,
+      "top_pathologies": [
+        [
+          "Acute COPD exacerbation / infection",
+          15319
+        ],
+        [
+          "Chronic rhinosinusitis",
+          14138
+        ],
+        [
+          "Acute rhinosinusitis",
+          9356
+        ],
+        [
+          "Larygospasm",
+          5633
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_116": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 58569,
+      "top_pathologies": [
+        [
+          "Acute laryngitis",
+          16052
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          15534
+        ],
+        [
+          "Chronic rhinosinusitis",
+          12730
+        ],
+        [
+          "Acute rhinosinusitis",
+          8405
+        ],
+        [
+          "Larygospasm",
+          5848
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_120": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 31092,
+      "top_pathologies": [
+        [
+          "Chronic rhinosinusitis",
+          18708
+        ],
+        [
+          "Acute rhinosinusitis",
+          12384
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_41": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 92055,
+      "top_pathologies": [
+        [
+          "Viral pharyngitis",
+          49271
+        ],
+        [
+          "URTI",
+          42192
+        ],
+        [
+          "Ebola",
+          592
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_227": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 65306,
+      "top_pathologies": [
+        [
+          "Viral pharyngitis",
+          36544
+        ],
+        [
+          "Influenza",
+          15350
+        ],
+        [
+          "Bronchiectasis",
+          13412
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_140": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 38305,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30320
+        ],
+        [
+          "GERD",
+          7985
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_154": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 30445,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30445
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_208": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 65503,
+      "top_pathologies": [
+        [
+          "Anemia",
+          39331
+        ],
+        [
+          "Pneumonia",
+          15928
+        ],
+        [
+          "Tuberculosis",
+          10244
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_7": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 37957,
+      "top_pathologies": [
+        [
+          "Anemia",
+          37957
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_113": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 38079,
+      "top_pathologies": [
+        [
+          "Anemia",
+          38079
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_82": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 91388,
+      "top_pathologies": [
+        [
+          "Anemia",
+          33813
+        ],
+        [
+          "Panic attack",
+          17551
+        ],
+        [
+          "Anaphylaxis",
+          17498
+        ],
+        [
+          "PSVT",
+          12904
+        ],
+        [
+          "Scombroid food poisoning",
+          9622
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_24": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 39373,
+      "top_pathologies": [
+        [
+          "Anemia",
+          39373
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_146": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 40464,
+      "top_pathologies": [
+        [
+          "Anemia",
+          40464
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_88": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 71436,
+      "top_pathologies": [
+        [
+          "Anemia",
+          32135
+        ],
+        [
+          "Influenza",
+          20847
+        ],
+        [
+          "HIV (initial infection)",
+          18454
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_31": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 27469,
+      "top_pathologies": [
+        [
+          "Atrial fibrillation",
+          15703
+        ],
+        [
+          "Acute COPD exacerbation / infection",
+          11766
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_22": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 33666,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          17545
+        ],
+        [
+          "Atrial fibrillation",
+          16121
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_218": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 68942,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          15239
+        ],
+        [
+          "Acute pulmonary edema",
+          14424
+        ],
+        [
+          "Stable angina",
+          14261
+        ],
+        [
+          "Atrial fibrillation",
+          12099
+        ],
+        [
+          "Myocarditis",
+          7149
+        ],
+        [
+          "Spontaneous pneumothorax",
+          5770
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_66": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 399695,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30612
+        ],
+        [
+          "Pulmonary embolism",
+          19782
+        ],
+        [
+          "Pneumonia",
+          17657
+        ],
+        [
+          "Panic attack",
+          17656
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          16924
+        ],
+        [
+          "Anaphylaxis",
+          16681
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_69": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 90316,
+      "top_pathologies": [
+        [
+          "Possible NSTEMI / STEMI",
+          16249
+        ],
+        [
+          "Unstable angina",
+          16199
+        ],
+        [
+          "Stable angina",
+          12930
+        ],
+        [
+          "Atrial fibrillation",
+          12120
+        ],
+        [
+          "Tuberculosis",
+          11246
+        ],
+        [
+          "Pancreatic neoplasm",
+          11193
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          7.355534806148942
+        ],
+        [
+          "douleurxx",
+          7.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          7.355534806148942
+        ],
+        [
+          "douleurxx_carac",
+          7.355534806148942
+        ],
+        [
+          "douleurxx_soudain",
+          7.355534806148942
+        ],
+        [
+          "douleurxx_intens",
+          7.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_155": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 80700,
+      "top_pathologies": [
+        [
+          "PSVT",
+          18574
+        ],
+        [
+          "Panic attack",
+          18114
+        ],
+        [
+          "Atrial fibrillation",
+          15394
+        ],
+        [
+          "Pericarditis",
+          12757
+        ],
+        [
+          "Scombroid food poisoning",
+          9926
+        ],
+        [
+          "Myocarditis",
+          5935
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_76": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 58469,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30507
+        ],
+        [
+          "Atrial fibrillation",
+          14551
+        ],
+        [
+          "PSVT",
+          13411
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_19": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14984,
+      "top_pathologies": [
+        [
+          "Atrial fibrillation",
+          14984
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_139": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14015,
+      "top_pathologies": [
+        [
+          "Atrial fibrillation",
+          14015
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_105": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 77281,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          17361
+        ],
+        [
+          "Acute pulmonary edema",
+          15558
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          15295
+        ],
+        [
+          "Atrial fibrillation",
+          15129
+        ],
+        [
+          "Stable angina",
+          13938
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          3.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_70": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 108812,
+      "top_pathologies": [
+        [
+          "GERD",
+          15638
+        ],
+        [
+          "Unstable angina",
+          15448
+        ],
+        [
+          "Sarcoidosis",
+          14873
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          14559
+        ],
+        [
+          "Atrial fibrillation",
+          13153
+        ],
+        [
+          "Pancreatic neoplasm",
+          12524
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          6.355534806148942
+        ],
+        [
+          "douleurxx",
+          6.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          6.355534806148942
+        ],
+        [
+          "douleurxx_carac",
+          6.355534806148942
+        ],
+        [
+          "douleurxx_soudain",
+          6.355534806148942
+        ],
+        [
+          "douleurxx_intens",
+          6.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_104": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 81355,
+      "top_pathologies": [
+        [
+          "Atrial fibrillation",
+          15538
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          15377
+        ],
+        [
+          "Unstable angina",
+          14401
+        ],
+        [
+          "Acute pulmonary edema",
+          14237
+        ],
+        [
+          "Stable angina",
+          11501
+        ],
+        [
+          "Epiglottitis",
+          10301
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          5.355534806148942
+        ],
+        [
+          "douleurxx",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_carac",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_soudain",
+          5.355534806148942
+        ],
+        [
+          "douleurxx_intens",
+          5.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_170": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 19093,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          19093
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_86": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18152,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          18152
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_207": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 27889,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          16367
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          11522
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_169": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 21655,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          21655
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_87": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26740,
+      "top_pathologies": [
+        [
+          "Allergic sinusitis",
+          13561
+        ],
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          13179
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_194": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 43076,
+      "top_pathologies": [
+        [
+          "Anaphylaxis",
+          16625
+        ],
+        [
+          "Epiglottitis",
+          13396
+        ],
+        [
+          "Larygospasm",
+          10998
+        ],
+        [
+          "Croup",
+          2057
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_25": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17269,
+      "top_pathologies": [
+        [
+          "Cluster headache",
+          17269
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_184": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15605,
+      "top_pathologies": [
+        [
+          "Cluster headache",
+          15605
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_159": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 34996,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          18357
+        ],
+        [
+          "Anaphylaxis",
+          16639
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_42": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 21379,
+      "top_pathologies": [
+        [
+          "Anaphylaxis",
+          21379
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_151": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 99055,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          27825
+        ],
+        [
+          "Anaphylaxis",
+          27536
+        ],
+        [
+          "Pulmonary embolism",
+          24542
+        ],
+        [
+          "Acute pulmonary edema",
+          19002
+        ],
+        [
+          "SLE",
+          100
+        ],
+        [
+          "Spontaneous rib fracture",
+          26
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_12": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 22300,
+      "top_pathologies": [
+        [
+          "Anaphylaxis",
+          22300
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_45": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 100801,
+      "top_pathologies": [
+        [
+          "Viral pharyngitis",
+          34037
+        ],
+        [
+          "Pulmonary embolism",
+          17296
+        ],
+        [
+          "Pneumonia",
+          13429
+        ],
+        [
+          "Tuberculosis",
+          12526
+        ],
+        [
+          "Pulmonary neoplasm",
+          12436
+        ],
+        [
+          "Bronchiectasis",
+          11077
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_21": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 8593,
+      "top_pathologies": [
+        [
+          "Spontaneous pneumothorax",
+          8593
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_220": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 64014,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          19764
+        ],
+        [
+          "Pericarditis",
+          15826
+        ],
+        [
+          "Pneumonia",
+          13578
+        ],
+        [
+          "Spontaneous pneumothorax",
+          9180
+        ],
+        [
+          "Spontaneous rib fracture",
+          5666
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_127": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12596,
+      "top_pathologies": [
+        [
+          "Cluster headache",
+          12596
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_176": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 24445,
+      "top_pathologies": [
+        [
+          "Guillain-Barré syndrome",
+          13492
+        ],
+        [
+          "Myasthenia gravis",
+          10581
+        ],
+        [
+          "Cluster headache",
+          372
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_5": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15726,
+      "top_pathologies": [
+        [
+          "Acute pulmonary edema",
+          15726
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_217": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 54347,
+      "top_pathologies": [
+        [
+          "GERD",
+          16753
+        ],
+        [
+          "Pericarditis",
+          16192
+        ],
+        [
+          "Acute pulmonary edema",
+          14455
+        ],
+        [
+          "Myocarditis",
+          6947
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_61": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26643,
+      "top_pathologies": [
+        [
+          "HIV (initial infection)",
+          17319
+        ],
+        [
+          "Tuberculosis",
+          9324
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_2": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 24145,
+      "top_pathologies": [
+        [
+          "Possible NSTEMI / STEMI",
+          14237
+        ],
+        [
+          "Tuberculosis",
+          9908
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          2.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_44": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26516,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          17740
+        ],
+        [
+          "Tuberculosis",
+          8776
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_84": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 28948,
+      "top_pathologies": [
+        [
+          "Guillain-Barré syndrome",
+          17067
+        ],
+        [
+          "Myasthenia gravis",
+          11881
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_90": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 9199,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          9199
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_52": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13882,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          13882
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_172": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 29210,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          15414
+        ],
+        [
+          "Myasthenia gravis",
+          13796
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_28": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12083,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          12083
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_138": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16598,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          16598
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_16": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 29530,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          16784
+        ],
+        [
+          "PSVT",
+          12746
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_99": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13563,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          13563
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_81": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18812,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          18812
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_157": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 35987,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          20127
+        ],
+        [
+          "Guillain-Barré syndrome",
+          15860
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_177": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 27007,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          13803
+        ],
+        [
+          "Guillain-Barré syndrome",
+          13204
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_185": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17853,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          17853
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_75": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14218,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          14218
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_171": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17890,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          17890
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_80": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18363,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          18363
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_111": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 19223,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          19223
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_187": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18122,
+      "top_pathologies": [
+        [
+          "Scombroid food poisoning",
+          18122
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_92": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18258,
+      "top_pathologies": [
+        [
+          "Scombroid food poisoning",
+          18258
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_190": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14350,
+      "top_pathologies": [
+        [
+          "Epiglottitis",
+          12675
+        ],
+        [
+          "Croup",
+          1675
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_33": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 10463,
+      "top_pathologies": [
+        [
+          "Epiglottitis",
+          10463
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_62": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 41963,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          18415
+        ],
+        [
+          "PSVT",
+          13183
+        ],
+        [
+          "Epiglottitis",
+          10365
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_65": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26703,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          14164
+        ],
+        [
+          "Epiglottitis",
+          12539
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_209": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 57592,
+      "top_pathologies": [
+        [
+          "Acute otitis media",
+          12882
+        ],
+        [
+          "Bronchitis",
+          11304
+        ],
+        [
+          "Pneumonia",
+          10868
+        ],
+        [
+          "Epiglottitis",
+          8575
+        ],
+        [
+          "Acute rhinosinusitis",
+          6731
+        ],
+        [
+          "Whooping cough",
+          5623
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_150": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 10755,
+      "top_pathologies": [
+        [
+          "Inguinal hernia",
+          10755
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_221": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12155,
+      "top_pathologies": [
+        [
+          "Inguinal hernia",
+          12155
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_160": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11719,
+      "top_pathologies": [
+        [
+          "Inguinal hernia",
+          11719
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_203": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 21748,
+      "top_pathologies": [
+        [
+          "Inguinal hernia",
+          13098
+        ],
+        [
+          "Spontaneous rib fracture",
+          4807
+        ],
+        [
+          "Whooping cough",
+          3843
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_211": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12120,
+      "top_pathologies": [
+        [
+          "Boerhaave",
+          12120
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_223": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14116,
+      "top_pathologies": [
+        [
+          "Pancreatic neoplasm",
+          14116
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_6": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12091,
+      "top_pathologies": [
+        [
+          "Pancreatic neoplasm",
+          12091
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_89": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 90409,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30439
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          11842
+        ],
+        [
+          "Unstable angina",
+          11509
+        ],
+        [
+          "Pancreatic neoplasm",
+          11430
+        ],
+        [
+          "Stable angina",
+          9163
+        ],
+        [
+          "Pulmonary neoplasm",
+          8701
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          8.355534806148942
+        ],
+        [
+          "nausee",
+          8.239789527279838
+        ],
+        [
+          "fatig_mod",
+          8.219722457733623
+        ],
+        [
+          "douleurxx_endroitducorps",
+          7.355534806148942
+        ],
+        [
+          "douleurxx",
+          7.355534806148942
+        ],
+        [
+          "douleurxx_irrad",
+          7.355534806148942
+        ]
+      ]
+    }
+  },
+  "E_188": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13661,
+      "top_pathologies": [
+        [
+          "Pancreatic neoplasm",
+          13661
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_3": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26276,
+      "top_pathologies": [
+        [
+          "Pericarditis",
+          19081
+        ],
+        [
+          "SLE",
+          7195
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_102": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 6917,
+      "top_pathologies": [
+        [
+          "SLE",
+          6917
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_206": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 7747,
+      "top_pathologies": [
+        [
+          "SLE",
+          7747
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_212": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 33827,
+      "top_pathologies": [
+        [
+          "Acute laryngitis",
+          20769
+        ],
+        [
+          "Epiglottitis",
+          13058
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_13": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14792,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          14792
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_225": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 42003,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          16279
+        ],
+        [
+          "Stable angina",
+          13054
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          12670
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          1.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_14": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 19783,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          13999
+        ],
+        [
+          "Spontaneous pneumothorax",
+          5784
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_20": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12765,
+      "top_pathologies": [
+        [
+          "Bronchiectasis",
+          12765
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_47": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12642,
+      "top_pathologies": [
+        [
+          "Bronchiectasis",
+          12642
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_108": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 15568,
+      "top_pathologies": [
+        [
+          "Possible NSTEMI / STEMI",
+          15568
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          1.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_191": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 24127,
+      "top_pathologies": [
+        [
+          "Possible NSTEMI / STEMI",
+          12555
+        ],
+        [
+          "Pulmonary neoplasm",
+          11572
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          2.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_161": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 55769,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          17152
+        ],
+        [
+          "Influenza",
+          16242
+        ],
+        [
+          "Possible NSTEMI / STEMI",
+          13606
+        ],
+        [
+          "Pulmonary neoplasm",
+          8769
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          2.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          2.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_174": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0003,
+    "support": {
+      "evidence_count_in_train": 5172,
+      "top_pathologies": [
+        [
+          "Chagas",
+          5172
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          1.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          1.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_167": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 26411,
+      "top_pathologies": [
+        [
+          "Anemia",
+          17384
+        ],
+        [
+          "GERD",
+          9027
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_109": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 33903,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          18166
+        ],
+        [
+          "Localized edema",
+          15737
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_137": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 20923,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          20923
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_10": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15774,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          15774
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_197": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18552,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          18552
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_198": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 23088,
+      "top_pathologies": [
+        [
+          "Sarcoidosis",
+          12778
+        ],
+        [
+          "Acute COPD exacerbation / infection",
+          10310
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_43": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12163,
+      "top_pathologies": [
+        [
+          "Sarcoidosis",
+          12163
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_74": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11760,
+      "top_pathologies": [
+        [
+          "Sarcoidosis",
+          11760
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_153": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 4231,
+      "top_pathologies": [
+        [
+          "Spontaneous rib fracture",
+          4231
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_216": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 5690,
+      "top_pathologies": [
+        [
+          "Spontaneous rib fracture",
+          5690
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_165": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 6745,
+      "top_pathologies": [
+        [
+          "Spontaneous pneumothorax",
+          6745
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_214": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 74108,
+      "top_pathologies": [
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          17185
+        ],
+        [
+          "Anaphylaxis",
+          16524
+        ],
+        [
+          "Acute COPD exacerbation / infection",
+          15987
+        ],
+        [
+          "Bronchitis",
+          14325
+        ],
+        [
+          "Scombroid food poisoning",
+          9899
+        ],
+        [
+          "Bronchiolitis",
+          188
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_96": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16713,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          16713
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_126": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18570,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          18570
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_158": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15207,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          15207
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_179": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 30410,
+      "top_pathologies": [
+        [
+          "Anemia",
+          30410
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_26": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 36097,
+      "top_pathologies": [
+        [
+          "Anemia",
+          36097
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_95": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16795,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          16795
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_98": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17760,
+      "top_pathologies": [
+        [
+          "GERD",
+          17760
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_215": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 19346,
+      "top_pathologies": [
+        [
+          "GERD",
+          19346
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_173": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 19447,
+      "top_pathologies": [
+        [
+          "GERD",
+          19447
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_63": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13850,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          13850
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_38": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12297,
+      "top_pathologies": [
+        [
+          "Myasthenia gravis",
+          12297
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_119": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14706,
+      "top_pathologies": [
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          14706
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_101": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14263,
+      "top_pathologies": [
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          14263
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_72": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12822,
+      "top_pathologies": [
+        [
+          "Acute COPD exacerbation / infection",
+          12822
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_199": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 9921,
+      "top_pathologies": [
+        [
+          "Acute COPD exacerbation / infection",
+          9921
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_46": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15405,
+      "top_pathologies": [
+        [
+          "Bronchospasm / acute asthma exacerbation",
+          15405
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_83": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15139,
+      "top_pathologies": [
+        [
+          "Guillain-Barré syndrome",
+          15139
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_0": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 40809,
+      "top_pathologies": [
+        [
+          "Pericarditis",
+          17088
+        ],
+        [
+          "Guillain-Barré syndrome",
+          15812
+        ],
+        [
+          "Myocarditis",
+          7909
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_93": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13976,
+      "top_pathologies": [
+        [
+          "Guillain-Barré syndrome",
+          13976
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_71": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 42901,
+      "top_pathologies": [
+        [
+          "Possible NSTEMI / STEMI",
+          15968
+        ],
+        [
+          "Unstable angina",
+          14965
+        ],
+        [
+          "Stable angina",
+          11968
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          3.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          3.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_145": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11035,
+      "top_pathologies": [
+        [
+          "Anemia",
+          11035
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_196": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 38980,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          26174
+        ],
+        [
+          "Pneumonia",
+          12806
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_110": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16766,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          16766
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_34": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18561,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          18561
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_219": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 31660,
+      "top_pathologies": [
+        [
+          "Bronchitis",
+          15094
+        ],
+        [
+          "Pneumonia",
+          14744
+        ],
+        [
+          "Croup",
+          1822
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_186": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16717,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          16717
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_210": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18865,
+      "top_pathologies": [
+        [
+          "Boerhaave",
+          10836
+        ],
+        [
+          "GERD",
+          8029
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_40": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 4013,
+      "top_pathologies": [
+        [
+          "Whooping cough",
+          4013
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_166": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 5922,
+      "top_pathologies": [
+        [
+          "Whooping cough",
+          5922
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_164": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16051,
+      "top_pathologies": [
+        [
+          "Atrial fibrillation",
+          16051
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_143": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 25085,
+      "top_pathologies": [
+        [
+          "Unstable angina",
+          13924
+        ],
+        [
+          "Stable angina",
+          11161
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_180": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15439,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          15439
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_205": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17156,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          17156
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_147": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18330,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          18330
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_15": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 18382,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          18382
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_192": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17157,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          17157
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_193": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17292,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          17292
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_128": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15456,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          15456
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_30": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12451,
+      "top_pathologies": [
+        [
+          "Inguinal hernia",
+          12451
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_8": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14232,
+      "top_pathologies": [
+        [
+          "Acute pulmonary edema",
+          14232
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_67": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14099,
+      "top_pathologies": [
+        [
+          "Acute pulmonary edema",
+          14099
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_224": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 9544,
+      "top_pathologies": [
+        [
+          "Pulmonary neoplasm",
+          9544
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_168": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 17178,
+      "top_pathologies": [
+        [
+          "Acute dystonic reactions",
+          17178
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_1": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14125,
+      "top_pathologies": [
+        [
+          "Acute otitis media",
+          14125
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_156": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 12969,
+      "top_pathologies": [
+        [
+          "Guillain-Barré syndrome",
+          12969
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_35": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 10331,
+      "top_pathologies": [
+        [
+          "PSVT",
+          10331
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_213": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11249,
+      "top_pathologies": [
+        [
+          "PSVT",
+          11249
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_37": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 3850,
+      "top_pathologies": [
+        [
+          "Spontaneous rib fracture",
+          3850
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_114": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14157,
+      "top_pathologies": [
+        [
+          "Acute otitis media",
+          14157
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_149": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 16696,
+      "top_pathologies": [
+        [
+          "Localized edema",
+          16696
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_163": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 9170,
+      "top_pathologies": [
+        [
+          "Sarcoidosis",
+          9170
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_18": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 14989,
+      "top_pathologies": [
+        [
+          "Bronchiectasis",
+          14989
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_100": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 8098,
+      "top_pathologies": [
+        [
+          "Pulmonary embolism",
+          8098
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_112": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 3501,
+      "top_pathologies": [
+        [
+          "Whooping cough",
+          3501
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_64": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 6685,
+      "top_pathologies": [
+        [
+          "Myocarditis",
+          6685
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_29": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 13865,
+      "top_pathologies": [
+        [
+          "Panic attack",
+          13865
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_107": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 15093,
+      "top_pathologies": [
+        [
+          "Pneumonia",
+          15093
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_60": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11241,
+      "top_pathologies": [
+        [
+          "PSVT",
+          11241
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_202": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0002,
+    "support": {
+      "evidence_count_in_train": 2077,
+      "top_pathologies": [
+        [
+          "Croup",
+          2077
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_4": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0002,
+    "support": {
+      "evidence_count_in_train": 2239,
+      "top_pathologies": [
+        [
+          "Croup",
+          2239
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_200": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0,
+    "support": {
+      "evidence_count_in_train": 11182,
+      "top_pathologies": [
+        [
+          "Acute COPD exacerbation / infection",
+          11182
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_141": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0001,
+    "support": {
+      "evidence_count_in_train": 4051,
+      "top_pathologies": [
+        [
+          "SLE",
+          4051
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_11": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0003,
+    "support": {
+      "evidence_count_in_train": 1207,
+      "top_pathologies": [
+        [
+          "SLE",
+          1207
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_178": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0021,
+    "support": {
+      "evidence_count_in_train": 650,
+      "top_pathologies": [
+        [
+          "Ebola",
+          650
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_39": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0027,
+    "support": {
+      "evidence_count_in_train": 510,
+      "top_pathologies": [
+        [
+          "Ebola",
+          510
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_73": {
+    "inferred_symptom_token": "dyspn",
+    "choice_text": "dyspn",
+    "confidence": 0.0021,
+    "support": {
+      "evidence_count_in_train": 652,
+      "top_pathologies": [
+        [
+          "Ebola",
+          652
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "dyspn",
+          1.3555348061489414
+        ],
+        [
+          "toux",
+          1.3044522437723423
+        ],
+        [
+          "fievre",
+          1.2772588722239782
+        ],
+        [
+          "nausee",
+          1.2397895272798372
+        ],
+        [
+          "fatig_mod",
+          1.219722457733622
+        ],
+        [
+          "diarrhee",
+          1.1945910149055314
+        ]
+      ]
+    }
+  },
+  "E_195": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0025,
+    "support": {
+      "evidence_count_in_train": 144,
+      "top_pathologies": [
+        [
+          "Bronchiolitis",
+          144
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_32": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0023,
+    "support": {
+      "evidence_count_in_train": 151,
+      "top_pathologies": [
+        [
+          "Bronchiolitis",
+          151
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_23": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0025,
+    "support": {
+      "evidence_count_in_train": 144,
+      "top_pathologies": [
+        [
+          "Bronchiolitis",
+          144
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_183": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0024,
+    "support": {
+      "evidence_count_in_train": 148,
+      "top_pathologies": [
+        [
+          "Bronchiolitis",
+          148
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_142": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0024,
+    "support": {
+      "evidence_count_in_train": 147,
+      "top_pathologies": [
+        [
+          "Bronchiolitis",
+          147
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  },
+  "E_17": {
+    "inferred_symptom_token": "douleurxx_endroitducorps",
+    "choice_text": "douleurxx endroitducorps",
+    "confidence": 0.0002,
+    "support": {
+      "evidence_count_in_train": 2136,
+      "top_pathologies": [
+        [
+          "Bronchiectasis",
+          2136
+        ]
+      ],
+      "top_candidate_tokens": [
+        [
+          "douleurxx_endroitducorps",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_irrad",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_carac",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_soudain",
+          0.3555348061489414
+        ],
+        [
+          "douleurxx_intens",
+          0.3555348061489414
+        ]
+      ]
+    }
+  }
+}
